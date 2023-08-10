@@ -12,7 +12,7 @@ public class MissingPositiveElement
     {
         int[] a = { 1, 2, 3 };
         MissingPositiveElement p = new MissingPositiveElement();
-        int n = p.MissingPositiveElement(a);
+        int n = p.MissingPositive_Element(a);
         Console.WriteLine(n);
         for (int i = 0; i < n; i++)
         {
@@ -21,7 +21,7 @@ public class MissingPositiveElement
         Console.ReadLine();
     }
 
-    public int MissingPositiveElement(int[] a)
+    public int MissingPositive_Element(int[] a)
     {
         int n = a.Length;
         bool[] present = new bool[n + 1];
