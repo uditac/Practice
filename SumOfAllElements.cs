@@ -11,6 +11,7 @@ public class SumOfAllElements
     public static void Main(string[] args)
     {
         int[] array = { 5, 7, 8, 4, 2, 1 };
+        var p = new SumOfAllElements();
         Console.WriteLine(p.SumOfAll_Elements(array));
     }
     public int SumOfAll_Elements(int[] array)

@@ -11,6 +11,7 @@ public class Binary_Gap
     public static void Main(string[] args)
     {
         int n = 13;
+        var p = new Binary_Gap();
         Console.WriteLine(p.binarygap(n));
     }
 

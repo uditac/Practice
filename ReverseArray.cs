@@ -11,11 +11,11 @@ public class ReverseArray
 {
     public static void Main(string[] args)
     {
-        ReverseArray P = new ReverseArray();
+        var p = new ReverseArray();
         int[] array = { 5, 7, 8, 4, 2, 1 }; int start = 0, end = 5;
-        p.printarray(array);
+       
         p.Reverse_Array(array, start, end);
-        p.printarray(array);
+      
     }
 
     public void Reverse_Array(int[] array, int start, int end)

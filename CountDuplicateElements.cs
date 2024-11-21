@@ -12,7 +12,7 @@ public class CountDuplicateElements
     public static void Main(string[] args)
     {
         CountDuplicateElements c = new CountDuplicateElements();
-        int start = 0, end = 5;
+        int end = 5;
         int numOfElements = 6;
         int[] array = { 5, 7, 8, 4, 2, 1 };
         Console.WriteLine(c.MethodFunc(array,numOfElements));

@@ -19,7 +19,7 @@ public class FrogJump
 
     public int FrogJumpRiver(int[] a, int x)
     {
-        int position; int i = 0;
+        int i = 0;
 
         //    possible solution
         if ((a.Length != 0) || (x != 0))

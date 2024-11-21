@@ -12,6 +12,7 @@ public class Rotate_Array
     {
         int k = 3; int[] a = { 2, 3, 4, 5 };
         int len = a.Length;
+        var p = new Rotate_Array();
         int[] B = new int[len]; B = p.rotatearray(a, k);
 
         for (int i = 0; i < a.Length; i++) { Console.WriteLine("{0}", B[i]); }

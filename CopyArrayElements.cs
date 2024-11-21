@@ -11,6 +11,7 @@ public class CopyArrayElements
     public static void Main(string[] args)
     {
         int[] array = { 5, 7, 8, 4, 2, 1 };
+        var p = new CopyArrayElements();
         int[] array2 = p.CopyElements(array);
         for (int i = 0; i < array.Length; i++)
         {
