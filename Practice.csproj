@@ -5,7 +5,13 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Practice.Brackets</StartupObject>
+    <StartupObject>Practice.MergeSortedArray</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="MergeSortedArray.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
 
 </Project>
